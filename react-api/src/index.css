@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button, input[type=submit] {
+  background-color: #4c83e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.api-frame {
+  margin: 16px;
+}
+
+.title-card {
+  margin: 9px;
+}
+
+.title {
+  color: #6730c5;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.name {
+  color: #925eea;
+}
+
+.form-row > * {
+  display: inline-block;
+  padding-right: 4px;
+  margin-top: 4px;
+}
+
+.field-row > * {
+  display: inline-block;
+  padding-right: 4px;
+}
+
+.submit-row > * {
+  display: inline-block;
+  padding-left: 4px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  margin: 0;
+}
